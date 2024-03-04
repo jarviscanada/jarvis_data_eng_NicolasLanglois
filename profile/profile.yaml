@@ -1,0 +1,93 @@
+# Preferred name (Characters only)
+name: "Nicolas Langlois"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: I've always been intrigued by electronics, so as a curious and creative person it's no surprise that I jumped into software engineering. I graduated a few years back at CDI College and obtained an ACS. I have about 5 years of experience, mainly in the game industry as a developer with two of my most-used tools being C# and SQL. I am looking forward to growing in a data role or a back end role. 
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - C#
+    - RDBMS/SQL
+    - MongoDB
+    - Unity
+    - Git
+  # At least 5 skills
+  competent:
+    - Microsoft Azure Cosmos DB
+    - PHP
+    - Agile
+    - Python
+    - Node.js
+  # At least 5 skills
+  familiar:
+    - C++
+    - websocket
+    - rest API
+    - Java
+    - Linux
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_NicolasLanglois/tree/master/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Implemented a SQL database to store hardware and usage data on a Linux cluster. The database was created using PostgreSQL inside of a Docker container and gathers the data of various machines with a bash script that runs once at the start and one that runs every 5 minutes.
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Hospital Patient Manager"
+    #URL is optional
+    git_url:
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Created a C# application to manage room availability, patient files and worker files. Using an Access database connected to the app through ERP, the app manages a whole hospital system to assign patients rooms, nurses and keep track of a lot of data regarding everything that happens in the hospital.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Unity Developer"
+    company: "Kagura Games"
+    duration: "2021-2023"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Extract and integrate data from database and text files from Japanese Unity games to localize them in other languages. Alter and debug C# code to make sure the games work in other regions."
+  - title: "DevOps Developer"
+    company: "Ubisoft Montreal"
+    duration: "2020-2021"
+    description: "Develop features of an automated build system, monitored it and assisted project members when failures arise."
+  - title: "IT Analyst"
+    company: "CGI"
+    duration: "2020"
+    description: "Troubleshooted client's workers' technological issues and document the process on Service Now."
+  - title: "Unity Developer"
+    company: "Slipgames Corporation"
+    duration: "2018-2020"
+    description: "Develop a mobile game using the Unity game engine. Tasks included coding game physics, UI, set up a database and integrating 3D assets."
+
+
+
+#List of education
+education: 
+  - school_name: "CDI College"
+    duration: "2015-2017"
+    degree: "Attestation of Collegial Studies"
+    department: "Programmer Analyst"
+    # optional
+    awards_achievements: 
+
+#Optional section
+others:
+    #category
+  - title: "Activities"
+    #list of items
+    bullets:
+      - "4 years of Japanese classes"
